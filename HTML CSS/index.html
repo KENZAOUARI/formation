@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+           
+            <ul>
+                <li><a href="#acceuil">Acceuil</a> </li>
+                <li><a href="#apropos">A propos</a> </li>
+                <li><a href="#nosservices">Nos Services</a> </li>
+                <li><a href="#contacteznous">Contactez nous</a> </li>
+            </ul>
+        </nav>
+       
+    </header>
+    <div class="banner" >
+        <h1>Bienvenue à l'hotel kenza</h1>
+        <p>Votre destination de reve pour des vacances inoubliables</p>
+    </div>
+    <section id="apropos">
+        <h2>A propos</h2>
+        <div class="AboutContainer">
+            <div class="AboutImages">
+                <img src="assets/pexels-thgusstavo-5176621.jpg" alt="hotel" width="800" height="300">
+            </div>
+        <div class="AboutText">
+            <p>Bienvenue à kenza, un établissement où confort, élégance et service de qualité se rencontrent pour offrir une expérience inoubliable. Situé au cœur de Béjaia, notre hôtel propose un cadre raffiné avec des chambres modernes, décorées avec goût, et équipées de toutes les commodités nécessaires pour un séjour agréable. </p>
+
+        </div>
+    </div>
+    </section>
+   
+   
+
+    <section id="nosservices">
+        <h2>nosservices</h2>
+        <div class="AboutTextt">
+            <p>Lorem, ipsum dolor. </p>
+            
+
+        </div>
+        <div class="AboutContainerr">
+            <div class="AboutImagess">
+                <img src="assets/pexels-rahibyaqubov-13194137.jpg" alt="hotel" width="50" height="50">
+            </div>
+        </div>
+       
+    </section>
+    <section id="contacteznous">
+        <h1>Contactez Nous</h1>
+        <form action="">
+            <Label for="Nom-complet">Nom Complet:</Label>
+            <input type="text" required id="Nom-complet" name="Nom-complet">
+            <Label for="Email">Email:</Label>
+            <input type="email" required id="Email" name="Email">
+            <Label for="Numerodetelephone">Numero de telephone:</Label>
+            <input type="tel" required id="Numerodetelephone" name="Numerodetelephone">
+            <Label for="MDP">Mot de passe:</Label>
+            <input type="password" required id="MDP" name="MDP">
+            <Label for="description">description:</Label>
+            <textarea name="Description" required id="description" cols="50" rows="4"></textarea>
+            <div class="sexe">
+                <Label >sexe:</Label>
+
+                <Label for="MDP">homme</Label>    <input type="radio" required name="sexe" id="sexe">
+                <Label for="MDP">femme</Label>
+            <input type="radio" name="sexe" id="sexe">
+            </div>
+            <button type="submit">Envoyer</button>
+</form>
+    </section>
+    <footer>
+        &copy;2024 fatima 
+    </footer>
+
+</body>
+</html>

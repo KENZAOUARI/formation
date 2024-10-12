@@ -1,0 +1,167 @@
+body,h1,h2,ul 
+{margin: 10px;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+nav{
+   background-color:rgb(125, 91, 91);
+}
+ul{
+    list-style-type: none;
+    padding: 10px,35px;
+    text-align: center;
+}
+li{
+    display: inline;
+    margin-right: 75px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ .banner{
+    display: flex;
+    background-image: url("assets/pexels-rahibyaqubov-13194137.jpg");
+
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 100px 0;
+color:rgb(255,255,255);
+text-align: center;
+    
+   
+} 
+.banner h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.banner p{
+    font-size:20px;
+    color: white;
+    font-weight: bold;
+}
+section{
+    padding: 40px;
+    background-color: #f9f9f9;
+    
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.AboutContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.AboutImages{
+     flex: 1   ;
+     text-align: center;
+
+    
+}
+img{
+    height: auto;
+    width: 400px;
+}
+.AboutText{
+    flex: 1;
+    padding: 20px;
+
+
+}
+.AboutContainerr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.AboutImagess{
+    flex: 1   ;
+    text-align: center;
+
+
+}
+.AboutImagess img{
+    height: auto;
+    width: 400px;
+
+
+}
+.AboutTextt{
+    flex: 1;
+    padding: 20px;
+
+}
+form{
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 2px solid brown;
+    box-shadow: 0px 2px 5px  rgb(0,0,0.2);
+
+
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+
+}
+input[type="email"][type="tel"][type="password"] textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+input [type="radio"]{
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+.sexe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+
+
+}
+footer{
+    background-color:white;
+    color:#111;
+    text-align: center;
+    padding: 10px 0;
+
+
+
+}
+input[type="submit"]:hover{background-color: beige; }
+@media screen and (max-width:320px) {
+    nav{
+        width:320px
+    }
+    body{
+        width: 320px;
+    }
+    
+}
